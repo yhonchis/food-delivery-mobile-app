@@ -21,7 +21,7 @@ export const Home = ({navigation}: AppTabScreenProps<'home'>): JSX.Element => {
   };
 
   const toInfo = (): void => {
-    navigation.navigate('info');
+    navigation.navigate('food');
   };
 
   return (
